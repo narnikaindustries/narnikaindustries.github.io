@@ -48,8 +48,8 @@ The site remains compatible with the existing GitHub Pages repository. Commit an
 
 `ekomorph.html#catalogue` includes the supplied **EkoMorph Product Catalogue 2026** with a real cover preview, view/download links, file size, and an eight-category index linking to PDF pages. The original 21-page PDF is preserved byte-for-byte at `catalogues/EkoMorph_Product_Catalogue_2026.pdf` (29,741,327 bytes). The PDF is not embedded or preloaded, keeping normal page loads lightweight. The cover JPEG is rendered from page 1.
 
-The PDF contact page lists +91 91580 11100 and +91 83283 72792. The website deliberately retains the user-confirmed +91 73307 46504. The supplied PDF has not been edited. Category information is taken from its contents and category pages; detailed specifications remain in the source PDF.
+The PDF contact page lists +91 91580 11100 and +91 83283 72792. The website deliberately retains the user-confirmed +91 76749 07643. The supplied PDF has not been edited. Category information is taken from its contents and category pages; detailed specifications remain in the source PDF.
 
 When replacing the catalogue, update the PDF, cover preview, page count, file size, and category page links together. Run `python3 scripts/check_site.py` afterwards.
 
-Phone: **+91 73307 46504** (`tel:+917330746504`). The product concept image uses EkoMorph sample branding; it is not an approved production artwork file.
+Phone: **+91 76749 07643** (`tel:+917674907643`). The product concept image uses EkoMorph sample branding; it is not an approved production artwork file.
