@@ -46,9 +46,9 @@ The site remains compatible with the existing GitHub Pages repository. Commit an
 
 ## EkoMorph brand page and catalogue
 
-`ekomorph.html#catalogue` includes the supplied **EkoMorph Product Catalogue 2026** with a real cover preview, view/download links, file size, and an eight-category index linking to PDF pages. The original 21-page PDF is preserved byte-for-byte at `catalogues/EkoMorph_Product_Catalogue_2026.pdf` (29,741,327 bytes). The PDF is not embedded or preloaded, keeping normal page loads lightweight. The cover JPEG is rendered from page 1.
+`ekomorph.html#catalogue` includes the supplied **EkoMorph Product Catalogue 2026** with a real cover preview, view/download links, file size, and an eight-category index linking to PDF pages. The supplied 26-page Design Fusion PDF is preserved byte-for-byte at `catalogues/EkoMorph_Product_Catalogue_2026.pdf` (39,054,905 bytes). The PDF is not embedded or preloaded, keeping normal page loads lightweight. The landscape cover JPEG is rendered from page 1. Versioned PDF links avoid serving a cached previous edition, while preserving the existing PDF path for older links.
 
-The PDF contact page lists +91 91580 11100 and +91 83283 72792. The website deliberately retains the user-confirmed +91 76749 07643. The supplied PDF has not been edited. Category information is taken from its contents and category pages; detailed specifications remain in the source PDF.
+The updated PDF contact page lists +91 83283 72792 and +91 76749 07643. The website uses the user-confirmed +91 76749 07643. The supplied PDF has not been edited. Category information is taken from its contents and category pages; detailed specifications remain in the source PDF.
 
 When replacing the catalogue, update the PDF, cover preview, page count, file size, and category page links together. Run `python3 scripts/check_site.py` afterwards.
 
